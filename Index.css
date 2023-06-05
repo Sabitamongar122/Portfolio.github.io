@@ -1,0 +1,65 @@
+header{
+  background-color: black;  
+  background-repeat: no-repeat;
+  height: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;  
+  padding-left: 40px; 
+  padding-right: 40px;
+  box-shadow: 0 0 20px;
+  text-align: center;
+}
+a:link, a:visited
+  {    
+
+  background-color: #a87532;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  display: inline-block;
+  margin-left:80px ;
+  border-radius: 20px;
+  margin-bottom:60px ;
+  text-decoration: none;
+  position: relative; left: 370px;
+ }
+ 
+
+ a:hover, a:active
+ {
+  background-color: red;
+  color: indianred;
+ }
+
+ .logo{
+    position: absolute;
+    left: 27px;
+    top: 20px;
+    z-index: 1;
+}
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190220/ourmid/pngtree-watercolor-splash-china-red-orange-image_6945.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+footer .icon li{
+   list-style: none;
+   display: inline-flex;
+   position: relative;
+   right: 120px;
+}
+footer .icon li a{
+   color: white;
+}
+
+h3{
+   font-size: 23px;
+   border: 1.5px solid black;
+   width: 250px;
+   height: 80px;
+   padding-top: 10px;
+   position: relative; left: 490px;
+}
